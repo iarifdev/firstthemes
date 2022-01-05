@@ -22,7 +22,7 @@
         <?php } ?>
         <?php the_posts_pagination(); ?>
     <?php } else { ?>
-        <p>Sorry, No Posts Matched Criteria</p>
+        <p>Sorry, No Posts Matched to Criteria</p>
 <?php } ?>
 
 <?php get_footer(); ?>
