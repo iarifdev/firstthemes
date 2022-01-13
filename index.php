@@ -18,7 +18,7 @@
         <?php } ?>
         <?php the_posts_pagination(); ?>
     <?php } else { ?>
-        <p><?php  _e('Sorry, No Posts Matched Criteria', 'firstthemes'); ?></p>
+        // <p><?php  _e('Sorry, No Posts Matched Criteria', 'firstthemes'); ?></p>
 <?php } ?>
 
 <?php get_footer(); ?>
