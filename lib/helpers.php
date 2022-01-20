@@ -6,7 +6,7 @@
             '<a href="' . esc_url(get_permalink( )) . '"><time datetime="' . esc_attr(get_the_date('c')) .'">' . esc_html(get_the_date()). '</time></a>'
         );
         printf(
-            // Translator %s Post Author
+            // Translator %s Post Author    
             esc_html__(' By %s','firstthemes'),
             '<a href="' . esc_url(get_author_posts_url( get_the_author_meta( 'ID' ))) . '">' . esc_html(get_the_author( )) . '</a>'
         );
